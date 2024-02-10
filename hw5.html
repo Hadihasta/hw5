@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DOM , Asyn, OOP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  </head>
+  <body>
+    <h1 class="text-center">Formulir registrasi</h1>
+
+    <div class="text-center">
+      Nama :
+      <input type="text" id="nama" minlength="10" />
+      <br />
+      Umur :
+      <input type="text" id="umur_input" />
+      <br />
+      Uang Saku :
+      <input type="text" id="uang" />
+      <br />
+      <br />
+      <button onclick="submitfunction()">submit</button>
+    </div>
+
+    <br />
+    <br />
+
+    <h1 class="text-center">List Pendaftar</h1>
+    <ul></ul>
+    <table class="table" id="mytable">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Nama</th>
+          <th scope="col">Umur</th>
+          <th scope="col">Uang Saku</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td id="data_nama"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td id="data_umur" class="text-center"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td id="data_uang"></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="exam.js "></script>
+  </body>
+</html>
